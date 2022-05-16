@@ -13,17 +13,17 @@ body {
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
 }
-a {
+
+
+.logo a {
   text-decoration: none;
-}
-li {
-  list-style: none;
 }
 .logo {
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   color: #212121;
+  text-decoration: none;
 }
 .logo:hover,
 .logo:focus {
@@ -32,7 +32,9 @@ li {
 .logo span {
   color: #2196f3;
 }
-
+.page-head ul {
+  list-style: none;
+}
 /* site-nav */
 
 .site-nav .link {
@@ -43,13 +45,18 @@ li {
 
   color: #212121;
 }
+.site-nav a {
+  text-decoration: none;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
 
 /* cont-nav */
-
+.cont-nav a {
+  text-decoration: none;
+}
 .cont-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -87,7 +94,9 @@ li {
 }
 
 /* section */
-
+.feauture ul {
+  list-style: none;
+}
 .feauture-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -105,7 +114,9 @@ li {
 }
 
 /* work */
-
+.work ul {
+  list-style: none;
+}
 .work .title {
   font-size: 36px;
   line-height: 1.16;
@@ -113,7 +124,9 @@ li {
 }
 
 /* team */
-
+.team ul {
+  list-style: none;
+}
 .team {
   background-color: #f5f4fa;
 }
@@ -144,6 +157,12 @@ li {
 }
 
 /* footer */
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  text-decoration: none;
+}
 .footer .logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -184,6 +203,10 @@ li {
 }
 
 /* portfolio */
+.portfolio ul,a {
+  text-decoration: none;
+  list-style: none;
+}
 .portfolio {
   background-color: #ffffff;
 }
