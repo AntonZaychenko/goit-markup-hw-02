@@ -36,7 +36,9 @@ body {
   list-style: none;
 }
 /* site-nav */
-
+.site-nav a.active {
+  color: #2196f3;
+}
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -241,7 +243,4 @@ body {
 .examples-list .link{
   color:#212121
 }
-.examples-list .link:hover,
-.link:focus {
-  color: #2196f3;
-}
+
