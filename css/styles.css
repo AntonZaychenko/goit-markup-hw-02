@@ -1,9 +1,24 @@
+/* Палитра */
+/* Цвет текста: 
+  основной- #212121;
+  доп- #757575;
+  при hover-#2196F3; */
+/* Цвет фона:
+  основной- #FFFFFF;
+  доп- #2F303A;
+      #F5F4FA; */
+
 body {
   letter-spacing: 0.03em;
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
 }
-
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
 .logo {
   font-family: Raleway, cursive;
   font-size: 26px;
@@ -38,7 +53,7 @@ body {
 .cont-nav .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -61,7 +76,7 @@ body {
   text-transform: uppercase;
 }
 .hero .btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -135,15 +150,19 @@ body {
   line-height: 1.19;
   color: #ffffff;
 }
+.footer .logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
 .footer {
-  margin-top: -2%;
+  margin-top: 0;
   background-color: #2f303a;
 }
 .footer .title {
   color: #ffffff;
 }
 .address-list {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -181,7 +200,7 @@ body {
 }
 
 .portfolio .btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -195,4 +214,11 @@ body {
 .btn:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+.examples-list .link{
+  color:#212121
+}
+.examples-list .link:hover,
+.link:focus {
+  color: #2196f3;
 }
